@@ -1,0 +1,44 @@
+services:
+  # ---------------------------------------------------------------------------
+  # 1. FRONTEND DASHBOARD (Static Site - Recommended, 100% Free on Render)
+  # Pre-bundled with verified analytical snapshots and SQL inspection panels.
+  # ---------------------------------------------------------------------------
+  - type: web
+    name: flipkart-analytics-hub-frontend
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_DATA_MODE
+        value: snapshot
+      - key: NEXT_PUBLIC_DATA_MODE
+        value: snapshot
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+  # ---------------------------------------------------------------------------
+  # 2. BACKEND API (Optional Web Service - Only needed for Live MySQL mode)
+  # Requires an external MySQL 8 instance (e.g., Aiven, Railway, TiDB Cloud)
+  # ---------------------------------------------------------------------------
+  # - type: web
+  #   name: flipkart-analytics-hub-backend
+  #   runtime: node
+  #   rootDir: backend
+  #   buildCommand: npm install
+  #   startCommand: node server.js
+  #   envVars:
+  #     - key: PORT
+  #       value: 5000
+  #     - key: DB_HOST
+  #       sync: false
+  #     - key: DB_USER
+  #       sync: false
+  #     - key: DB_PASSWORD
+  #       sync: false
+  #     - key: DB_NAME
+  #       value: flipkart_analytics_hub
+  #     - key: FRONTEND_URL
+  #       sync: false

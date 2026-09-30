@@ -6,11 +6,18 @@
  * If 'live' fails (e.g. backend stopped), automatically falls back to snapshot.
  */
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api';
-const PREFERRED_MODE = import.meta.env.VITE_DATA_MODE || 'live';
+// Check both NEXT_PUBLIC_DATA_MODE and VITE_DATA_MODE
+const PREFERRED_MODE = (
+  import.meta.env.NEXT_PUBLIC_DATA_MODE ||
+  import.meta.env.VITE_DATA_MODE ||
+  'live'
+).toLowerCase();
+
+const API_BASE = import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 let activeMode = PREFERRED_MODE;
 let snapshotTimestamp = null;
+let cachedSqlMap = null;
 
 export function getDataMode() {
   return activeMode;
@@ -113,14 +120,24 @@ export const api = {
     let key = String(queryId).toLowerCase();
     if (/^\d+$/.test(key)) key = `q${key}`;
 
-    if (PREFERRED_MODE === 'snapshot') {
-      try {
-        const res = await fetch('/snapshot/sql_queries.json');
-        const json = await res.json();
-        return json.queries[key] || { id: key, title: `Query ${key}`, sql: '-- SQL query not found' };
-      } catch (e) {
-        return { id: key, title: `Query ${key}`, sql: '-- Snapshot file missing' };
+    const loadFromSnapshot = async () => {
+      if (cachedSqlMap && (cachedSqlMap[key] || cachedSqlMap.queries?.[key])) {
+        return cachedSqlMap.queries?.[key] || cachedSqlMap[key];
       }
+      try {
+        let res = await fetch('/snapshot/sql.json');
+        if (!res.ok) res = await fetch('/snapshot/sql_queries.json');
+        if (!res.ok) throw new Error('Snapshot SQL not available');
+        const json = await res.json();
+        cachedSqlMap = json;
+        return json.queries?.[key] || json[key] || { id: key, title: `Query ${key}`, sql: '-- SQL query not found' };
+      } catch (e) {
+        return { id: key, title: `Query ${key}`, sql: '-- Snapshot SQL unavailable' };
+      }
+    };
+
+    if (PREFERRED_MODE === 'snapshot') {
+      return loadFromSnapshot();
     }
 
     try {
@@ -130,9 +147,7 @@ export const api = {
       return json;
     } catch (e) {
       // Fallback to snapshot sql file
-      const res = await fetch('/snapshot/sql_queries.json');
-      const json = await res.json();
-      return json.queries[key] || { id: key, title: `Query ${key}`, sql: '-- SQL query' };
+      return loadFromSnapshot();
     }
   }
 };

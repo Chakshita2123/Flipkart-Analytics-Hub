@@ -181,6 +181,51 @@ In snapshot mode, the frontend can be deployed as a static site without needing 
 
 ---
 
+## Deploying on Render (Free & Fast)
+
+### Option 1: Frontend Static Site (Recommended - 100% Free)
+Because the dashboard includes full static snapshots of all 15 SQL query results (`/frontend/public/snapshot/`), you can host the entire dashboard, charts, tables, and **View SQL** panels on Render's Free Static Site tier without spinning up a database.
+
+1. Sign up/log in at [render.com](https://render.com).
+2. Click **New +** > **Static Site**.
+3. Connect your GitHub repository: `Flipkart-Analytics-Hub`.
+4. Configure the settings:
+   - **Name**: `flipkart-analytics-dashboard`
+   - **Root Directory**: `frontend`
+   - **Build Command**: `npm install && npm run build`
+   - **Publish Directory**: `dist`
+5. Under **Environment Variables**, add:
+   - `VITE_DATA_MODE` = `snapshot`
+   - `NEXT_PUBLIC_DATA_MODE` = `snapshot`
+6. Under **Redirects/Rewrites**, add:
+   - **Type**: `Rewrite`
+   - **Source**: `/*`
+   - **Destination**: `/index.html`
+7. Click **Create Static Site**. Your dashboard will be live in 1-2 minutes!
+
+---
+
+### Option 2: 1-Click Blueprint (using `render.yaml`)
+1. Go to Render Dashboard > **Blueprints**.
+2. Click **New Blueprint Instance**.
+3. Select your repository. Render will automatically read `render.yaml` and configure the static site.
+4. Click **Apply**.
+
+---
+
+### Option 3: Full-Stack (Live Node API + External MySQL)
+Render does not natively host MySQL databases (only PostgreSQL). To run live SQL queries on Render:
+1. Spin up a free MySQL 8 database on [Aiven](https://aiven.io), [TiDB Serverless](https://tidbcloud.com), or [Railway](https://railway.app).
+2. Import `schema.sql` and `sample_data.sql` into that database.
+3. In Render, create a **Web Service** for `backend`:
+   - **Root Directory**: `backend`
+   - **Build Command**: `npm install`
+   - **Start Command**: `node server.js`
+   - **Environment Variables**: `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`, `FRONTEND_URL`.
+4. Create the **Static Site** for `frontend` with `VITE_DATA_MODE=live` and `VITE_API_BASE_URL=https://<your-backend>.onrender.com/api`.
+
+---
+
 ## Project Structure
 
 ```
