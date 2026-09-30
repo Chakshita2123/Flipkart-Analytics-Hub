@@ -1,57 +1,407 @@
 {
-  "generated_at": "2026-09-30T17:45:00.000Z",
+  "generated_at": "2026-09-30T14:05:47.530Z",
   "query": "q2",
   "count": 50,
   "data": [
-    { "category_name": "Books", "subcategory": "Fiction", "product_name": "Malgudi Days RK Narayan", "units_sold": 47, "total_revenue": 9353.00, "category_rank": 1 },
-    { "category_name": "Books", "subcategory": "Fiction", "product_name": "The God of Small Things", "units_sold": 38, "total_revenue": 11362.00, "category_rank": 2 },
-    { "category_name": "Books", "subcategory": "Academic", "product_name": "NCERT Mathematics Class 12", "units_sold": 30, "total_revenue": 11970.00, "category_rank": 3 },
-    { "category_name": "Books", "subcategory": "Fiction", "product_name": "The Palace of Illusions", "units_sold": 29, "total_revenue": 10121.00, "category_rank": 4 },
-    { "category_name": "Books", "subcategory": "Academic", "product_name": "CA Foundation Study Material", "units_sold": 28, "total_revenue": 36372.00, "category_rank": 5 },
-    { "category_name": "Books", "subcategory": "Academic", "product_name": "GATE 2025 Computer Science", "units_sold": 27, "total_revenue": 18873.00, "category_rank": 6 },
-    { "category_name": "Books", "subcategory": "Academic", "product_name": "Data Structures Made Easy", "units_sold": 22, "total_revenue": 10978.00, "category_rank": 7 },
-    { "category_name": "Electronics", "subcategory": "Accessories", "product_name": "Anker PowerBank 20000mAh", "units_sold": 46, "total_revenue": 114954.00, "category_rank": 1 },
-    { "category_name": "Electronics", "subcategory": "Laptops", "product_name": "Apple MacBook Air M2 8GB", "units_sold": 40, "total_revenue": 4596000.00, "category_rank": 2 },
-    { "category_name": "Electronics", "subcategory": "Tablets", "product_name": "Apple iPad Air 5th Gen 64GB", "units_sold": 36, "total_revenue": 2156400.00, "category_rank": 3 },
-    { "category_name": "Electronics", "subcategory": "Accessories", "product_name": "Logitech MX Master 3S Mouse", "units_sold": 34, "total_revenue": 322830.00, "category_rank": 4 },
-    { "category_name": "Electronics", "subcategory": "Smartphones", "product_name": "Redmi Note 13 Pro 5G 128GB", "units_sold": 33, "total_revenue": 659967.00, "category_rank": 5 },
-    { "category_name": "Electronics", "subcategory": "Accessories", "product_name": "Sony WH-1000XM5 Headphones", "units_sold": 32, "total_revenue": 863680.00, "category_rank": 6 },
-    { "category_name": "Electronics", "subcategory": "Tablets", "product_name": "Redmi Pad Pro WiFi 128GB", "units_sold": 31, "total_revenue": 712969.00, "category_rank": 7 },
-    { "category_name": "Electronics", "subcategory": "Accessories", "product_name": "boAt Rockerz 450 Headphones", "units_sold": 30, "total_revenue": 38970.00, "category_rank": 8 },
-    { "category_name": "Electronics", "subcategory": "Accessories", "product_name": "JBL Flip 6 Bluetooth Speaker", "units_sold": 27, "total_revenue": 269973.00, "category_rank": 9 },
-    { "category_name": "Electronics", "subcategory": "Laptops", "product_name": "ASUS VivoBook 15 Core i3", "units_sold": 27, "total_revenue": 971730.00, "category_rank": 9 },
-    { "category_name": "Electronics", "subcategory": "Smartphones", "product_name": "Apple iPhone 15 128GB", "units_sold": 27, "total_revenue": 2159973.00, "category_rank": 9 },
-    { "category_name": "Electronics", "subcategory": "Smartphones", "product_name": "Realme 12 Pro Plus 5G 256GB", "units_sold": 27, "total_revenue": 755973.00, "category_rank": 9 },
-    { "category_name": "Electronics", "subcategory": "Smartphones", "product_name": "OnePlus 12 256GB", "units_sold": 26, "total_revenue": 1689974.00, "category_rank": 13 },
-    { "category_name": "Electronics", "subcategory": "Laptops", "product_name": "Lenovo IdeaPad Slim 5 Ryzen 5", "units_sold": 23, "total_revenue": 1126977.00, "category_rank": 14 },
-    { "category_name": "Electronics", "subcategory": "Laptops", "product_name": "Dell XPS 15 Core i7 16GB", "units_sold": 23, "total_revenue": 3449770.00, "category_rank": 14 },
-    { "category_name": "Electronics", "subcategory": "Laptops", "product_name": "HP Pavilion 15 Core i5 8GB", "units_sold": 22, "total_revenue": 1209978.00, "category_rank": 16 },
-    { "category_name": "Electronics", "subcategory": "Smartphones", "product_name": "Samsung Galaxy S24 Ultra 256GB", "units_sold": 17, "total_revenue": 1869983.00, "category_rank": 17 },
-    { "category_name": "Electronics", "subcategory": "Tablets", "product_name": "Samsung Galaxy Tab S9 128GB", "units_sold": 15, "total_revenue": 1124985.00, "category_rank": 18 },
-    { "category_name": "Fashion", "subcategory": "Women Clothing", "product_name": "W for Woman Straight Kurta", "units_sold": 37, "total_revenue": 66563.00, "category_rank": 1 },
-    { "category_name": "Fashion", "subcategory": "Footwear", "product_name": "Adidas Ultraboost 22 Men", "units_sold": 36, "total_revenue": 467820.00, "category_rank": 2 },
-    { "category_name": "Fashion", "subcategory": "Men Clothing", "product_name": "Allen Solly Slim Fit Chinos", "units_sold": 35, "total_revenue": 87465.00, "category_rank": 3 },
-    { "category_name": "Fashion", "subcategory": "Women Clothing", "product_name": "FabIndia Cotton Salwar Suit", "units_sold": 32, "total_revenue": 111968.00, "category_rank": 4 },
-    { "category_name": "Fashion", "subcategory": "Men Clothing", "product_name": "Peter England Formal Suit", "units_sold": 30, "total_revenue": 209970.00, "category_rank": 5 },
-    { "category_name": "Fashion", "subcategory": "Women Clothing", "product_name": "Biba Anarkali Kurta Set", "units_sold": 29, "total_revenue": 72471.00, "category_rank": 6 },
-    { "category_name": "Fashion", "subcategory": "Footwear", "product_name": "Bata Ladies Block Heels", "units_sold": 26, "total_revenue": 46774.00, "category_rank": 7 },
-    { "category_name": "Fashion", "subcategory": "Men Clothing", "product_name": "Raymond Slim Fit Formal Shirt", "units_sold": 25, "total_revenue": 32475.00, "category_rank": 8 },
-    { "category_name": "Fashion", "subcategory": "Footwear", "product_name": "Metro Shoes Formal Derby Men", "units_sold": 24, "total_revenue": 59976.00, "category_rank": 9 },
-    { "category_name": "Fashion", "subcategory": "Men Clothing", "product_name": "Levis 511 Slim Fit Jeans", "units_sold": 21, "total_revenue": 69279.00, "category_rank": 10 },
-    { "category_name": "Fashion", "subcategory": "Men Clothing", "product_name": "US Polo Assn Polo T-Shirt", "units_sold": 21, "total_revenue": 31479.00, "category_rank": 10 },
-    { "category_name": "Fashion", "subcategory": "Footwear", "product_name": "Nike Air Max 270 Men Shoes", "units_sold": 18, "total_revenue": 161910.00, "category_rank": 12 },
-    { "category_name": "Fashion", "subcategory": "Women Clothing", "product_name": "Banarasi Silk Saree with Blouse", "units_sold": 14, "total_revenue": 69986.00, "category_rank": 13 },
-    { "category_name": "Home", "subcategory": "Home Decor", "product_name": "WallMantra Motivational Wall Art", "units_sold": 37, "total_revenue": 29563.00, "category_rank": 1 },
-    { "category_name": "Home", "subcategory": "Furniture", "product_name": "IKEA LACK Coffee Table", "units_sold": 32, "total_revenue": 159968.00, "category_rank": 2 },
-    { "category_name": "Home", "subcategory": "Kitchen Appliances", "product_name": "Prestige SS Pressure Cooker 5L", "units_sold": 31, "total_revenue": 77469.00, "category_rank": 3 },
-    { "category_name": "Home", "subcategory": "Kitchen Appliances", "product_name": "Philips Air Fryer HD9200 2.75L", "units_sold": 29, "total_revenue": 188471.00, "category_rank": 4 },
-    { "category_name": "Home", "subcategory": "Home Decor", "product_name": "Asian Paints Royale Atmos 20L", "units_sold": 29, "total_revenue": 159471.00, "category_rank": 4 },
-    { "category_name": "Home", "subcategory": "Furniture", "product_name": "Nilkamal Plastic Chair Set of 4", "units_sold": 26, "total_revenue": 90974.00, "category_rank": 6 },
-    { "category_name": "Home", "subcategory": "Kitchen Appliances", "product_name": "Instant Pot Duo 7-in-1", "units_sold": 25, "total_revenue": 224975.00, "category_rank": 7 },
-    { "category_name": "Home", "subcategory": "Kitchen Appliances", "product_name": "Lifelong Mixer Grinder 500W", "units_sold": 24, "total_revenue": 67176.00, "category_rank": 8 },
-    { "category_name": "Home", "subcategory": "Kitchen Appliances", "product_name": "IFB 30L Convection Microwave", "units_sold": 22, "total_revenue": 329978.00, "category_rank": 9 },
-    { "category_name": "Home", "subcategory": "Furniture", "product_name": "Solid Wood Study Desk", "units_sold": 20, "total_revenue": 169980.00, "category_rank": 10 },
-    { "category_name": "Home", "subcategory": "Furniture", "product_name": "Wakefit Memory Foam Mattress Queen", "units_sold": 20, "total_revenue": 299980.00, "category_rank": 10 },
-    { "category_name": "Home", "subcategory": "Home Decor", "product_name": "Bombay Dyeing Cotton Bed Sheet", "units_sold": 20, "total_revenue": 25980.00, "category_rank": 10 }
+    {
+      "category_name": "Books",
+      "subcategory": "Fiction",
+      "product_name": "Malgudi Days RK Narayan",
+      "units_sold": 47,
+      "total_revenue": 9353,
+      "category_rank": 1
+    },
+    {
+      "category_name": "Books",
+      "subcategory": "Fiction",
+      "product_name": "The God of Small Things",
+      "units_sold": 38,
+      "total_revenue": 11362,
+      "category_rank": 2
+    },
+    {
+      "category_name": "Books",
+      "subcategory": "Academic",
+      "product_name": "NCERT Mathematics Class 12",
+      "units_sold": 30,
+      "total_revenue": 11970,
+      "category_rank": 3
+    },
+    {
+      "category_name": "Books",
+      "subcategory": "Fiction",
+      "product_name": "The Palace of Illusions",
+      "units_sold": 29,
+      "total_revenue": 10121,
+      "category_rank": 4
+    },
+    {
+      "category_name": "Books",
+      "subcategory": "Academic",
+      "product_name": "CA Foundation Study Material",
+      "units_sold": 28,
+      "total_revenue": 36372,
+      "category_rank": 5
+    },
+    {
+      "category_name": "Books",
+      "subcategory": "Academic",
+      "product_name": "GATE 2025 Computer Science",
+      "units_sold": 27,
+      "total_revenue": 18873,
+      "category_rank": 6
+    },
+    {
+      "category_name": "Books",
+      "subcategory": "Academic",
+      "product_name": "Data Structures Made Easy",
+      "units_sold": 22,
+      "total_revenue": 10978,
+      "category_rank": 7
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Accessories",
+      "product_name": "Anker PowerBank 20000mAh",
+      "units_sold": 46,
+      "total_revenue": 114954,
+      "category_rank": 1
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Laptops",
+      "product_name": "Apple MacBook Air M2 8GB",
+      "units_sold": 40,
+      "total_revenue": 4596000,
+      "category_rank": 2
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Tablets",
+      "product_name": "Apple iPad Air 5th Gen 64GB",
+      "units_sold": 36,
+      "total_revenue": 2156400,
+      "category_rank": 3
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Accessories",
+      "product_name": "Logitech MX Master 3S Mouse",
+      "units_sold": 34,
+      "total_revenue": 322830,
+      "category_rank": 4
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Smartphones",
+      "product_name": "Redmi Note 13 Pro 5G 128GB",
+      "units_sold": 33,
+      "total_revenue": 659967,
+      "category_rank": 5
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Accessories",
+      "product_name": "Sony WH-1000XM5 Headphones",
+      "units_sold": 32,
+      "total_revenue": 863680,
+      "category_rank": 6
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Tablets",
+      "product_name": "Redmi Pad Pro WiFi 128GB",
+      "units_sold": 31,
+      "total_revenue": 712969,
+      "category_rank": 7
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Accessories",
+      "product_name": "boAt Rockerz 450 Headphones",
+      "units_sold": 30,
+      "total_revenue": 38970,
+      "category_rank": 8
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Accessories",
+      "product_name": "JBL Flip 6 Bluetooth Speaker",
+      "units_sold": 27,
+      "total_revenue": 269973,
+      "category_rank": 9
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Laptops",
+      "product_name": "ASUS VivoBook 15 Core i3",
+      "units_sold": 27,
+      "total_revenue": 971730,
+      "category_rank": 9
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Smartphones",
+      "product_name": "Apple iPhone 15 128GB",
+      "units_sold": 27,
+      "total_revenue": 2159973,
+      "category_rank": 9
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Smartphones",
+      "product_name": "Realme 12 Pro Plus 5G 256GB",
+      "units_sold": 27,
+      "total_revenue": 755973,
+      "category_rank": 9
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Smartphones",
+      "product_name": "OnePlus 12 256GB",
+      "units_sold": 26,
+      "total_revenue": 1689974,
+      "category_rank": 13
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Laptops",
+      "product_name": "Lenovo IdeaPad Slim 5 Ryzen 5",
+      "units_sold": 23,
+      "total_revenue": 1126977,
+      "category_rank": 14
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Laptops",
+      "product_name": "Dell XPS 15 Core i7 16GB",
+      "units_sold": 23,
+      "total_revenue": 3449770,
+      "category_rank": 14
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Laptops",
+      "product_name": "HP Pavilion 15 Core i5 8GB",
+      "units_sold": 22,
+      "total_revenue": 1209978,
+      "category_rank": 16
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Smartphones",
+      "product_name": "Samsung Galaxy S24 Ultra 256GB",
+      "units_sold": 17,
+      "total_revenue": 1869983,
+      "category_rank": 17
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Tablets",
+      "product_name": "Samsung Galaxy Tab S9 128GB",
+      "units_sold": 15,
+      "total_revenue": 1124985,
+      "category_rank": 18
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Women Clothing",
+      "product_name": "W for Woman Straight Kurta",
+      "units_sold": 37,
+      "total_revenue": 66563,
+      "category_rank": 1
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Footwear",
+      "product_name": "Adidas Ultraboost 22 Men",
+      "units_sold": 36,
+      "total_revenue": 467820,
+      "category_rank": 2
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Men Clothing",
+      "product_name": "Allen Solly Slim Fit Chinos",
+      "units_sold": 35,
+      "total_revenue": 87465,
+      "category_rank": 3
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Women Clothing",
+      "product_name": "FabIndia Cotton Salwar Suit",
+      "units_sold": 32,
+      "total_revenue": 111968,
+      "category_rank": 4
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Men Clothing",
+      "product_name": "Peter England Formal Suit",
+      "units_sold": 30,
+      "total_revenue": 209970,
+      "category_rank": 5
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Women Clothing",
+      "product_name": "Biba Anarkali Kurta Set",
+      "units_sold": 29,
+      "total_revenue": 72471,
+      "category_rank": 6
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Footwear",
+      "product_name": "Bata Ladies Block Heels",
+      "units_sold": 26,
+      "total_revenue": 46774,
+      "category_rank": 7
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Men Clothing",
+      "product_name": "Raymond Slim Fit Formal Shirt",
+      "units_sold": 25,
+      "total_revenue": 32475,
+      "category_rank": 8
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Footwear",
+      "product_name": "Metro Shoes Formal Derby Men",
+      "units_sold": 24,
+      "total_revenue": 59976,
+      "category_rank": 9
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Men Clothing",
+      "product_name": "Levis 511 Slim Fit Jeans",
+      "units_sold": 21,
+      "total_revenue": 69279,
+      "category_rank": 10
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Men Clothing",
+      "product_name": "US Polo Assn Polo T-Shirt",
+      "units_sold": 21,
+      "total_revenue": 31479,
+      "category_rank": 10
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Footwear",
+      "product_name": "Nike Air Max 270 Men Shoes",
+      "units_sold": 18,
+      "total_revenue": 161910,
+      "category_rank": 12
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Women Clothing",
+      "product_name": "Banarasi Silk Saree with Blouse",
+      "units_sold": 14,
+      "total_revenue": 69986,
+      "category_rank": 13
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Home Decor",
+      "product_name": "WallMantra Motivational Wall Art",
+      "units_sold": 37,
+      "total_revenue": 29563,
+      "category_rank": 1
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Furniture",
+      "product_name": "IKEA LACK Coffee Table",
+      "units_sold": 32,
+      "total_revenue": 159968,
+      "category_rank": 2
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Kitchen Appliances",
+      "product_name": "Prestige SS Pressure Cooker 5L",
+      "units_sold": 31,
+      "total_revenue": 77469,
+      "category_rank": 3
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Kitchen Appliances",
+      "product_name": "Philips Air Fryer HD9200 2.75L",
+      "units_sold": 29,
+      "total_revenue": 188471,
+      "category_rank": 4
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Home Decor",
+      "product_name": "Asian Paints Royale Atmos 20L",
+      "units_sold": 29,
+      "total_revenue": 159471,
+      "category_rank": 4
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Furniture",
+      "product_name": "Nilkamal Plastic Chair Set of 4",
+      "units_sold": 26,
+      "total_revenue": 90974,
+      "category_rank": 6
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Kitchen Appliances",
+      "product_name": "Instant Pot Duo 7-in-1",
+      "units_sold": 25,
+      "total_revenue": 224975,
+      "category_rank": 7
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Kitchen Appliances",
+      "product_name": "Lifelong Mixer Grinder 500W",
+      "units_sold": 24,
+      "total_revenue": 67176,
+      "category_rank": 8
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Kitchen Appliances",
+      "product_name": "IFB 30L Convection Microwave",
+      "units_sold": 22,
+      "total_revenue": 329978,
+      "category_rank": 9
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Furniture",
+      "product_name": "Solid Wood Study Desk",
+      "units_sold": 20,
+      "total_revenue": 169980,
+      "category_rank": 10
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Furniture",
+      "product_name": "Wakefit Memory Foam Mattress Queen",
+      "units_sold": 20,
+      "total_revenue": 299980,
+      "category_rank": 10
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Home Decor",
+      "product_name": "Bombay Dyeing Cotton Bed Sheet",
+      "units_sold": 20,
+      "total_revenue": 25980,
+      "category_rank": 10
+    }
   ]
 }

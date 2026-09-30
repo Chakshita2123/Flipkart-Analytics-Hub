@@ -1,27 +1,207 @@
 {
-  "generated_at": "2026-09-30T17:45:00.000Z",
+  "generated_at": "2026-09-30T14:05:47.530Z",
   "query": "q5",
   "count": 20,
   "data": [
-    { "seller_id": 1, "seller_name": "TechZone Electronics", "seller_rating": 4.80, "total_products": 4, "total_orders_fulfilled": 59, "gross_revenue": 9486063.00, "avg_selling_price": 78133.46, "composite_score": 0.9840 },
-    { "seller_id": 9, "seller_name": "SmartTech Solutions", "seller_rating": 4.50, "total_products": 3, "total_orders_fulfilled": 47, "gross_revenue": 4691701.00, "avg_selling_price": 55886.48, "composite_score": 0.6568 },
-    { "seller_id": 5, "seller_name": "GadgetGuru Store", "seller_rating": 4.70, "total_products": 4, "total_orders_fulfilled": 51, "gross_revenue": 3644501.00, "avg_selling_price": 30031.09, "composite_score": 0.6065 },
-    { "seller_id": 13, "seller_name": "ElectroMart India", "seller_rating": 4.90, "total_products": 4, "total_orders_fulfilled": 43, "gross_revenue": 3360909.00, "avg_selling_price": 36129.43, "composite_score": 0.6046 },
-    { "seller_id": 17, "seller_name": "MobileZone India", "seller_rating": 4.80, "total_products": 3, "total_orders_fulfilled": 37, "gross_revenue": 2911912.00, "avg_selling_price": 34765.67, "composite_score": 0.5682 },
-    { "seller_id": 3, "seller_name": "HomeDecor Plus", "seller_rating": 4.50, "total_products": 3, "total_orders_fulfilled": 30, "gross_revenue": 554426.00, "avg_selling_price": 7436.50, "composite_score": 0.3951 },
-    { "seller_id": 14, "seller_name": "DesignerDen Fashion", "seller_rating": 4.50, "total_products": 2, "total_orders_fulfilled": 28, "gross_revenue": 537099.00, "avg_selling_price": 9185.86, "composite_score": 0.3940 },
-    { "seller_id": 11, "seller_name": "FurnitureMart Online", "seller_rating": 4.70, "total_products": 3, "total_orders_fulfilled": 50, "gross_revenue": 280505.00, "avg_selling_price": 2875.00, "composite_score": 0.3937 },
-    { "seller_id": 4, "seller_name": "BooksWorld India", "seller_rating": 4.90, "total_products": 2, "total_orders_fulfilled": 32, "gross_revenue": 21323.00, "avg_selling_price": 274.00, "composite_score": 0.3933 },
-    { "seller_id": 8, "seller_name": "ReadMore Books", "seller_rating": 4.80, "total_products": 2, "total_orders_fulfilled": 26, "gross_revenue": 21099.00, "avg_selling_price": 424.00, "composite_score": 0.3853 },
-    { "seller_id": 20, "seller_name": "UrbanReads Books", "seller_rating": 4.80, "total_products": 1, "total_orders_fulfilled": 18, "gross_revenue": 11362.00, "avg_selling_price": 299.00, "composite_score": 0.3847 },
-    { "seller_id": 15, "seller_name": "HomeEssentials Store", "seller_rating": 4.40, "total_products": 2, "total_orders_fulfilled": 26, "gross_revenue": 488451.00, "avg_selling_price": 9768.23, "composite_score": 0.3829 },
-    { "seller_id": 19, "seller_name": "ApplianceKing India", "seller_rating": 4.50, "total_products": 1, "total_orders_fulfilled": 11, "gross_revenue": 329978.00, "avg_selling_price": 14999.00, "composite_score": 0.3809 },
-    { "seller_id": 7, "seller_name": "KitchenKing Supplies", "seller_rating": 4.60, "total_products": 3, "total_orders_fulfilled": 35, "gross_revenue": 170625.00, "avg_selling_price": 2250.43, "composite_score": 0.3788 },
-    { "seller_id": 2, "seller_name": "FashionFirst India", "seller_rating": 4.60, "total_products": 3, "total_orders_fulfilled": 44, "gross_revenue": 158018.00, "avg_selling_price": 1969.45, "composite_score": 0.3780 },
-    { "seller_id": 6, "seller_name": "StyleHub Fashion", "seller_rating": 4.40, "total_products": 4, "total_orders_fulfilled": 54, "gross_revenue": 401187.00, "avg_selling_price": 3388.83, "composite_score": 0.3774 },
-    { "seller_id": 16, "seller_name": "AcademicBooks Hub", "seller_rating": 4.70, "total_products": 1, "total_orders_fulfilled": 14, "gross_revenue": 18873.00, "avg_selling_price": 699.00, "composite_score": 0.3772 },
-    { "seller_id": 18, "seller_name": "EthnicWear Palace", "seller_rating": 4.60, "total_products": 2, "total_orders_fulfilled": 24, "gross_revenue": 142457.00, "avg_selling_price": 3332.33, "composite_score": 0.3770 },
-    { "seller_id": 12, "seller_name": "PageTurner Books", "seller_rating": 4.60, "total_products": 1, "total_orders_fulfilled": 14, "gross_revenue": 36372.00, "avg_selling_price": 1299.00, "composite_score": 0.3703 },
-    { "seller_id": 10, "seller_name": "TrendyWear Clothing", "seller_rating": 4.30, "total_products": 2, "total_orders_fulfilled": 25, "gross_revenue": 249375.00, "avg_selling_price": 4747.62, "composite_score": 0.3598 }
+    {
+      "seller_id": 1,
+      "seller_name": "TechZone Electronics",
+      "seller_rating": 4.8,
+      "total_products": 4,
+      "total_orders_fulfilled": 59,
+      "gross_revenue": 9486063,
+      "avg_selling_price": 78133.46,
+      "composite_score": 0.984
+    },
+    {
+      "seller_id": 9,
+      "seller_name": "SmartTech Solutions",
+      "seller_rating": 4.5,
+      "total_products": 3,
+      "total_orders_fulfilled": 47,
+      "gross_revenue": 4691701,
+      "avg_selling_price": 55886.48,
+      "composite_score": 0.6568
+    },
+    {
+      "seller_id": 5,
+      "seller_name": "GadgetGuru Store",
+      "seller_rating": 4.7,
+      "total_products": 4,
+      "total_orders_fulfilled": 51,
+      "gross_revenue": 3644501,
+      "avg_selling_price": 30031.09,
+      "composite_score": 0.6065
+    },
+    {
+      "seller_id": 13,
+      "seller_name": "ElectroMart India",
+      "seller_rating": 4.9,
+      "total_products": 4,
+      "total_orders_fulfilled": 43,
+      "gross_revenue": 3360909,
+      "avg_selling_price": 36129.43,
+      "composite_score": 0.6046
+    },
+    {
+      "seller_id": 17,
+      "seller_name": "MobileZone India",
+      "seller_rating": 4.8,
+      "total_products": 3,
+      "total_orders_fulfilled": 37,
+      "gross_revenue": 2911912,
+      "avg_selling_price": 34765.67,
+      "composite_score": 0.5682
+    },
+    {
+      "seller_id": 3,
+      "seller_name": "HomeDecor Plus",
+      "seller_rating": 4.5,
+      "total_products": 3,
+      "total_orders_fulfilled": 30,
+      "gross_revenue": 554426,
+      "avg_selling_price": 7436.5,
+      "composite_score": 0.3951
+    },
+    {
+      "seller_id": 14,
+      "seller_name": "DesignerDen Fashion",
+      "seller_rating": 4.5,
+      "total_products": 2,
+      "total_orders_fulfilled": 28,
+      "gross_revenue": 537099,
+      "avg_selling_price": 9185.86,
+      "composite_score": 0.394
+    },
+    {
+      "seller_id": 11,
+      "seller_name": "FurnitureMart Online",
+      "seller_rating": 4.7,
+      "total_products": 3,
+      "total_orders_fulfilled": 50,
+      "gross_revenue": 280505,
+      "avg_selling_price": 2875,
+      "composite_score": 0.3937
+    },
+    {
+      "seller_id": 4,
+      "seller_name": "BooksWorld India",
+      "seller_rating": 4.9,
+      "total_products": 2,
+      "total_orders_fulfilled": 32,
+      "gross_revenue": 21323,
+      "avg_selling_price": 274,
+      "composite_score": 0.3933
+    },
+    {
+      "seller_id": 8,
+      "seller_name": "ReadMore Books",
+      "seller_rating": 4.8,
+      "total_products": 2,
+      "total_orders_fulfilled": 26,
+      "gross_revenue": 21099,
+      "avg_selling_price": 424,
+      "composite_score": 0.3853
+    },
+    {
+      "seller_id": 20,
+      "seller_name": "UrbanReads Books",
+      "seller_rating": 4.8,
+      "total_products": 1,
+      "total_orders_fulfilled": 18,
+      "gross_revenue": 11362,
+      "avg_selling_price": 299,
+      "composite_score": 0.3847
+    },
+    {
+      "seller_id": 15,
+      "seller_name": "HomeEssentials Store",
+      "seller_rating": 4.4,
+      "total_products": 2,
+      "total_orders_fulfilled": 26,
+      "gross_revenue": 488451,
+      "avg_selling_price": 9768.23,
+      "composite_score": 0.3829
+    },
+    {
+      "seller_id": 19,
+      "seller_name": "ApplianceKing India",
+      "seller_rating": 4.5,
+      "total_products": 1,
+      "total_orders_fulfilled": 11,
+      "gross_revenue": 329978,
+      "avg_selling_price": 14999,
+      "composite_score": 0.3809
+    },
+    {
+      "seller_id": 7,
+      "seller_name": "KitchenKing Supplies",
+      "seller_rating": 4.6,
+      "total_products": 3,
+      "total_orders_fulfilled": 35,
+      "gross_revenue": 170625,
+      "avg_selling_price": 2250.43,
+      "composite_score": 0.3788
+    },
+    {
+      "seller_id": 2,
+      "seller_name": "FashionFirst India",
+      "seller_rating": 4.6,
+      "total_products": 3,
+      "total_orders_fulfilled": 44,
+      "gross_revenue": 158018,
+      "avg_selling_price": 1969.45,
+      "composite_score": 0.378
+    },
+    {
+      "seller_id": 6,
+      "seller_name": "StyleHub Fashion",
+      "seller_rating": 4.4,
+      "total_products": 4,
+      "total_orders_fulfilled": 54,
+      "gross_revenue": 401187,
+      "avg_selling_price": 3388.83,
+      "composite_score": 0.3774
+    },
+    {
+      "seller_id": 16,
+      "seller_name": "AcademicBooks Hub",
+      "seller_rating": 4.7,
+      "total_products": 1,
+      "total_orders_fulfilled": 14,
+      "gross_revenue": 18873,
+      "avg_selling_price": 699,
+      "composite_score": 0.3772
+    },
+    {
+      "seller_id": 18,
+      "seller_name": "EthnicWear Palace",
+      "seller_rating": 4.6,
+      "total_products": 2,
+      "total_orders_fulfilled": 24,
+      "gross_revenue": 142457,
+      "avg_selling_price": 3332.33,
+      "composite_score": 0.377
+    },
+    {
+      "seller_id": 12,
+      "seller_name": "PageTurner Books",
+      "seller_rating": 4.6,
+      "total_products": 1,
+      "total_orders_fulfilled": 14,
+      "gross_revenue": 36372,
+      "avg_selling_price": 1299,
+      "composite_score": 0.3703
+    },
+    {
+      "seller_id": 10,
+      "seller_name": "TrendyWear Clothing",
+      "seller_rating": 4.3,
+      "total_products": 2,
+      "total_orders_fulfilled": 25,
+      "gross_revenue": 249375,
+      "avg_selling_price": 4747.62,
+      "composite_score": 0.3598
+    }
   ]
 }

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-30T17:45:00.000Z",
+  "generated_at": "2026-09-30T14:05:47.530Z",
   "query": "overview",
   "count": 1,
   "data": {
-    "total_revenue": 30171111.00,
+    "total_revenue": 30171111,
     "active_orders": 286,
     "total_orders_placed": 334,
-    "active_customers": 90,
-    "avg_order_value": 105493.40,
+    "active_customers": 93,
+    "avg_order_value": 105493.4,
     "delivered_orders": 256,
     "returned_orders": 19,
     "cancelled_orders": 29,

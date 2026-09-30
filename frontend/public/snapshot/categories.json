@@ -1,19 +1,139 @@
 {
-  "generated_at": "2026-09-30T17:45:00.000Z",
+  "generated_at": "2026-09-30T14:05:47.530Z",
   "query": "q10",
   "count": 12,
   "data": [
-    { "category_name": "Electronics", "subcategory": "Laptops", "product_count": 5, "units_sold": 162, "gross_revenue": 14041555.00, "avg_product_price": 89087.60, "avg_product_rating": 4.56, "total_returns": 3, "return_rate_pct": 1.85 },
-    { "category_name": "Electronics", "subcategory": "Smartphones", "product_count": 5, "units_sold": 142, "gross_revenue": 8260858.00, "avg_product_price": 58578.71, "avg_product_rating": 4.55, "total_returns": 1, "return_rate_pct": 0.70 },
-    { "category_name": "Electronics", "subcategory": "Tablets", "product_count": 3, "units_sold": 90, "gross_revenue": 4334346.00, "avg_product_price": 50082.32, "avg_product_rating": 4.57, "total_returns": 1, "return_rate_pct": 1.11 },
-    { "category_name": "Electronics", "subcategory": "Accessories", "product_count": 5, "units_sold": 193, "gross_revenue": 1928699.00, "avg_product_price": 9854.94, "avg_product_rating": 4.53, "total_returns": 7, "return_rate_pct": 3.63 },
-    { "category_name": "Home", "subcategory": "Kitchen Appliances", "product_count": 5, "units_sold": 156, "gross_revenue": 1115544.00, "avg_product_price": 7096.33, "avg_product_rating": 4.51, "total_returns": 2, "return_rate_pct": 1.28 },
-    { "category_name": "Home", "subcategory": "Furniture", "product_count": 4, "units_sold": 110, "gross_revenue": 792390.00, "avg_product_price": 7159.71, "avg_product_rating": 4.39, "total_returns": 3, "return_rate_pct": 2.73 },
-    { "category_name": "Fashion", "subcategory": "Footwear", "product_count": 4, "units_sold": 117, "gross_revenue": 791451.00, "avg_product_price": 6453.58, "avg_product_rating": 4.44, "total_returns": 5, "return_rate_pct": 4.27 },
-    { "category_name": "Fashion", "subcategory": "Men Clothing", "product_count": 5, "units_sold": 155, "gross_revenue": 499845.00, "avg_product_price": 3117.52, "avg_product_rating": 4.38, "total_returns": 3, "return_rate_pct": 1.94 },
-    { "category_name": "Fashion", "subcategory": "Women Clothing", "product_count": 4, "units_sold": 129, "gross_revenue": 373771.00, "avg_product_price": 2877.46, "avg_product_rating": 4.52, "total_returns": 3, "return_rate_pct": 2.33 },
-    { "category_name": "Home", "subcategory": "Home Decor", "product_count": 3, "units_sold": 102, "gross_revenue": 255798.00, "avg_product_price": 2289.38, "avg_product_rating": 4.24, "total_returns": 4, "return_rate_pct": 3.92 },
-    { "category_name": "Books", "subcategory": "Academic", "product_count": 4, "units_sold": 122, "gross_revenue": 87778.00, "avg_product_price": 737.33, "avg_product_rating": 4.65, "total_returns": 2, "return_rate_pct": 1.64 },
-    { "category_name": "Books", "subcategory": "Fiction", "product_count": 3, "units_sold": 121, "gross_revenue": 32379.00, "avg_product_price": 271.22, "avg_product_rating": 4.71, "total_returns": 0, "return_rate_pct": 0.00 }
+    {
+      "category_name": "Electronics",
+      "subcategory": "Laptops",
+      "product_count": 5,
+      "units_sold": 162,
+      "gross_revenue": 14041555,
+      "avg_product_price": 89087.6,
+      "avg_product_rating": 4.56,
+      "total_returns": 3,
+      "return_rate_pct": 1.85
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Smartphones",
+      "product_count": 5,
+      "units_sold": 142,
+      "gross_revenue": 8260858,
+      "avg_product_price": 58578.71,
+      "avg_product_rating": 4.55,
+      "total_returns": 1,
+      "return_rate_pct": 0.7
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Tablets",
+      "product_count": 3,
+      "units_sold": 90,
+      "gross_revenue": 4334346,
+      "avg_product_price": 50082.32,
+      "avg_product_rating": 4.57,
+      "total_returns": 1,
+      "return_rate_pct": 1.11
+    },
+    {
+      "category_name": "Electronics",
+      "subcategory": "Accessories",
+      "product_count": 5,
+      "units_sold": 193,
+      "gross_revenue": 1928699,
+      "avg_product_price": 9854.94,
+      "avg_product_rating": 4.53,
+      "total_returns": 7,
+      "return_rate_pct": 3.63
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Kitchen Appliances",
+      "product_count": 5,
+      "units_sold": 156,
+      "gross_revenue": 1115544,
+      "avg_product_price": 7096.33,
+      "avg_product_rating": 4.51,
+      "total_returns": 2,
+      "return_rate_pct": 1.28
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Furniture",
+      "product_count": 4,
+      "units_sold": 110,
+      "gross_revenue": 792390,
+      "avg_product_price": 7159.71,
+      "avg_product_rating": 4.39,
+      "total_returns": 3,
+      "return_rate_pct": 2.73
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Footwear",
+      "product_count": 4,
+      "units_sold": 117,
+      "gross_revenue": 791451,
+      "avg_product_price": 6453.58,
+      "avg_product_rating": 4.44,
+      "total_returns": 5,
+      "return_rate_pct": 4.27
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Men Clothing",
+      "product_count": 5,
+      "units_sold": 155,
+      "gross_revenue": 499845,
+      "avg_product_price": 3117.52,
+      "avg_product_rating": 4.38,
+      "total_returns": 3,
+      "return_rate_pct": 1.94
+    },
+    {
+      "category_name": "Fashion",
+      "subcategory": "Women Clothing",
+      "product_count": 4,
+      "units_sold": 129,
+      "gross_revenue": 373771,
+      "avg_product_price": 2877.46,
+      "avg_product_rating": 4.52,
+      "total_returns": 3,
+      "return_rate_pct": 2.33
+    },
+    {
+      "category_name": "Home",
+      "subcategory": "Home Decor",
+      "product_count": 3,
+      "units_sold": 102,
+      "gross_revenue": 255798,
+      "avg_product_price": 2289.38,
+      "avg_product_rating": 4.24,
+      "total_returns": 4,
+      "return_rate_pct": 3.92
+    },
+    {
+      "category_name": "Books",
+      "subcategory": "Academic",
+      "product_count": 4,
+      "units_sold": 122,
+      "gross_revenue": 87778,
+      "avg_product_price": 737.33,
+      "avg_product_rating": 4.65,
+      "total_returns": 2,
+      "return_rate_pct": 1.64
+    },
+    {
+      "category_name": "Books",
+      "subcategory": "Fiction",
+      "product_count": 3,
+      "units_sold": 121,
+      "gross_revenue": 32379,
+      "avg_product_price": 271.22,
+      "avg_product_rating": 4.71,
+      "total_returns": 0,
+      "return_rate_pct": 0
+    }
   ]
 }

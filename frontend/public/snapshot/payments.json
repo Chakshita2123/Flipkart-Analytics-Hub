@@ -1,12 +1,47 @@
 {
-  "generated_at": "2026-09-30T17:45:00.000Z",
+  "generated_at": "2026-09-30T14:05:47.530Z",
   "query": "q3",
   "count": 5,
   "data": [
-    { "payment_method": "COD", "order_count": 188, "total_revenue": 19444955.00, "order_pct": 56.29, "revenue_pct": 55.51, "avg_order_value": 103430.61 },
-    { "payment_method": "UPI", "order_count": 71, "total_revenue": 6052605.00, "order_pct": 21.26, "revenue_pct": 17.28, "avg_order_value": 85247.96 },
-    { "payment_method": "Credit Card", "order_count": 39, "total_revenue": 5360877.00, "order_pct": 11.68, "revenue_pct": 15.30, "avg_order_value": 137458.38 },
-    { "payment_method": "Debit Card", "order_count": 19, "total_revenue": 2153583.00, "order_pct": 5.69, "revenue_pct": 6.15, "avg_order_value": 113346.47 },
-    { "payment_method": "Wallet", "order_count": 17, "total_revenue": 2015525.00, "order_pct": 5.09, "revenue_pct": 5.75, "avg_order_value": 118560.29 }
+    {
+      "payment_method": "COD",
+      "order_count": 188,
+      "total_revenue": 19444955,
+      "order_pct": 56.29,
+      "revenue_pct": 55.51,
+      "avg_order_value": 103430.61
+    },
+    {
+      "payment_method": "UPI",
+      "order_count": 71,
+      "total_revenue": 6052605,
+      "order_pct": 21.26,
+      "revenue_pct": 17.28,
+      "avg_order_value": 85247.96
+    },
+    {
+      "payment_method": "Credit Card",
+      "order_count": 39,
+      "total_revenue": 5360877,
+      "order_pct": 11.68,
+      "revenue_pct": 15.3,
+      "avg_order_value": 137458.38
+    },
+    {
+      "payment_method": "Debit Card",
+      "order_count": 19,
+      "total_revenue": 2153583,
+      "order_pct": 5.69,
+      "revenue_pct": 6.15,
+      "avg_order_value": 113346.47
+    },
+    {
+      "payment_method": "Wallet",
+      "order_count": 17,
+      "total_revenue": 2015525,
+      "order_pct": 5.09,
+      "revenue_pct": 5.75,
+      "avg_order_value": 118560.29
+    }
   ]
 }

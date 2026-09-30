@@ -1,29 +1,507 @@
 {
-  "generated_at": "2026-09-30T17:45:00.000Z",
+  "generated_at": "2026-09-30T14:05:47.530Z",
   "query": "q6",
   "count": 50,
   "data": [
-    { "product_id": 14, "product_name": "Sony WH-1000XM5 Headphones", "category_name": "Electronics", "total_orders": 18, "total_returns": 4, "return_rate_pct": 22.22, "return_reasons": "Changed mind | Product damaged during delivery | Wrong item delivered", "return_health_flag": "HIGH RISK - Review Needed" },
-    { "product_id": 28, "product_name": "Nike Air Max 270 Men Shoes", "category_name": "Fashion", "total_orders": 12, "total_returns": 2, "return_rate_pct": 16.67, "return_reasons": "Defective product | Wrong book edition delivered", "return_health_flag": "HIGH RISK - Review Needed" },
-    { "product_id": 24, "product_name": "Biba Anarkali Kurta Set", "category_name": "Fashion", "total_orders": 19, "total_returns": 3, "return_rate_pct": 15.79, "return_reasons": "Changed mind | Defective product | Saree colour faded after first wash", "return_health_flag": "HIGH RISK - Review Needed" },
-    { "product_id": 29, "product_name": "Adidas Ultraboost 22 Men", "category_name": "Fashion", "total_orders": 19, "total_returns": 3, "return_rate_pct": 15.79, "return_reasons": "Size not fitting | Table surface scratched in transit | Wrong item delivered", "return_health_flag": "HIGH RISK - Review Needed" },
-    { "product_id": 44, "product_name": "NCERT Mathematics Class 12", "category_name": "Books", "total_orders": 15, "total_returns": 2, "return_rate_pct": 13.33, "return_reasons": "Size not fitting | Wrong book edition delivered", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 42, "product_name": "Bombay Dyeing Cotton Bed Sheet", "category_name": "Home", "total_orders": 15, "total_returns": 2, "return_rate_pct": 13.33, "return_reasons": "Changed mind | Table surface scratched in transit", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 8, "product_name": "HP Pavilion 15 Core i5 8GB", "category_name": "Electronics", "total_orders": 16, "total_returns": 2, "return_rate_pct": 12.50, "return_reasons": "Duplicate order placed | Table surface scratched in transit", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 15, "product_name": "JBL Flip 6 Bluetooth Speaker", "category_name": "Electronics", "total_orders": 18, "total_returns": 2, "return_rate_pct": 11.11, "return_reasons": "Book pages torn | Wrong book edition delivered", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 22, "product_name": "Peter England Formal Suit", "category_name": "Fashion", "total_orders": 20, "total_returns": 2, "return_rate_pct": 10.00, "return_reasons": "Better price available elsewhere | Wrong item delivered", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 12, "product_name": "Samsung Galaxy Tab S9 128GB", "category_name": "Electronics", "total_orders": 11, "total_returns": 1, "return_rate_pct": 9.09, "return_reasons": "Mobile overheating issue", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 37, "product_name": "IKEA LACK Coffee Table", "category_name": "Home", "total_orders": 22, "total_returns": 2, "return_rate_pct": 9.09, "return_reasons": "Colour different from website | Table surface scratched in transit", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 40, "product_name": "Wakefit Memory Foam Mattress Queen", "category_name": "Home", "total_orders": 13, "total_returns": 1, "return_rate_pct": 7.69, "return_reasons": "Saree colour faded after first wash", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 21, "product_name": "Levis 511 Slim Fit Jeans", "category_name": "Fashion", "total_orders": 14, "total_returns": 1, "return_rate_pct": 7.14, "return_reasons": "Size not fitting", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 35, "product_name": "IFB 30L Convection Microwave", "category_name": "Home", "total_orders": 15, "total_returns": 1, "return_rate_pct": 6.67, "return_reasons": "Changed mind", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 41, "product_name": "Asian Paints Royale Atmos 20L", "category_name": "Home", "total_orders": 15, "total_returns": 1, "return_rate_pct": 6.67, "return_reasons": "Defective product", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 5, "product_name": "Redmi Note 13 Pro 5G 128GB", "category_name": "Electronics", "total_orders": 18, "total_returns": 1, "return_rate_pct": 5.56, "return_reasons": "Quality not as expected", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 7, "product_name": "Dell XPS 15 Core i7 16GB", "category_name": "Electronics", "total_orders": 19, "total_returns": 1, "return_rate_pct": 5.26, "return_reasons": "Wrong item delivered", "return_health_flag": "MODERATE - Monitor" },
-    { "product_id": 33, "product_name": "Prestige SS Pressure Cooker 5L", "category_name": "Home", "total_orders": 20, "total_returns": 1, "return_rate_pct": 5.00, "return_reasons": "Saree colour faded after first wash", "return_health_flag": "HEALTHY" },
-    { "product_id": 43, "product_name": "WallMantra Motivational Wall Art", "category_name": "Home", "total_orders": 26, "total_returns": 1, "return_rate_pct": 3.85, "return_reasons": "Product damaged during delivery", "return_health_flag": "HEALTHY" },
-    { "product_id": 16, "product_name": "Anker PowerBank 20000mAh", "category_name": "Electronics", "total_orders": 28, "total_returns": 1, "return_rate_pct": 3.57, "return_reasons": "Mobile overheating issue", "return_health_flag": "HEALTHY" },
-    { "product_id": 18, "product_name": "Logitech MX Master 3S Mouse", "category_name": "Electronics", "total_orders": 22, "total_returns": 0, "return_rate_pct": 0.00, "return_reasons": null, "return_health_flag": "HEALTHY" },
-    { "product_id": 6, "product_name": "Apple MacBook Air M2 8GB", "category_name": "Electronics", "total_orders": 24, "total_returns": 0, "return_rate_pct": 0.00, "return_reasons": null, "return_health_flag": "HEALTHY" }
+    {
+      "product_id": 14,
+      "product_name": "Sony WH-1000XM5 Headphones",
+      "category_name": "Electronics",
+      "total_orders": 18,
+      "total_returns": 4,
+      "return_rate_pct": 22.22,
+      "return_reasons": "Changed mind | Product damaged during delivery | Wrong item delivered",
+      "return_health_flag": "HIGH RISK - Review Needed"
+    },
+    {
+      "product_id": 28,
+      "product_name": "Nike Air Max 270 Men Shoes",
+      "category_name": "Fashion",
+      "total_orders": 12,
+      "total_returns": 2,
+      "return_rate_pct": 16.67,
+      "return_reasons": "Defective product | Wrong book edition delivered",
+      "return_health_flag": "HIGH RISK - Review Needed"
+    },
+    {
+      "product_id": 24,
+      "product_name": "Biba Anarkali Kurta Set",
+      "category_name": "Fashion",
+      "total_orders": 19,
+      "total_returns": 3,
+      "return_rate_pct": 15.79,
+      "return_reasons": "Changed mind | Defective product | Saree colour faded after first wash",
+      "return_health_flag": "HIGH RISK - Review Needed"
+    },
+    {
+      "product_id": 29,
+      "product_name": "Adidas Ultraboost 22 Men",
+      "category_name": "Fashion",
+      "total_orders": 19,
+      "total_returns": 3,
+      "return_rate_pct": 15.79,
+      "return_reasons": "Size not fitting | Table surface scratched in transit | Wrong item delivered",
+      "return_health_flag": "HIGH RISK - Review Needed"
+    },
+    {
+      "product_id": 44,
+      "product_name": "NCERT Mathematics Class 12",
+      "category_name": "Books",
+      "total_orders": 15,
+      "total_returns": 2,
+      "return_rate_pct": 13.33,
+      "return_reasons": "Size not fitting | Wrong book edition delivered",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 42,
+      "product_name": "Bombay Dyeing Cotton Bed Sheet",
+      "category_name": "Home",
+      "total_orders": 15,
+      "total_returns": 2,
+      "return_rate_pct": 13.33,
+      "return_reasons": "Changed mind | Table surface scratched in transit",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 8,
+      "product_name": "HP Pavilion 15 Core i5 8GB",
+      "category_name": "Electronics",
+      "total_orders": 16,
+      "total_returns": 2,
+      "return_rate_pct": 12.5,
+      "return_reasons": "Duplicate order placed | Table surface scratched in transit",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 15,
+      "product_name": "JBL Flip 6 Bluetooth Speaker",
+      "category_name": "Electronics",
+      "total_orders": 18,
+      "total_returns": 2,
+      "return_rate_pct": 11.11,
+      "return_reasons": "Book pages torn | Wrong book edition delivered",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 22,
+      "product_name": "Peter England Formal Suit",
+      "category_name": "Fashion",
+      "total_orders": 20,
+      "total_returns": 2,
+      "return_rate_pct": 10,
+      "return_reasons": "Better price available elsewhere | Wrong item delivered",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 12,
+      "product_name": "Samsung Galaxy Tab S9 128GB",
+      "category_name": "Electronics",
+      "total_orders": 11,
+      "total_returns": 1,
+      "return_rate_pct": 9.09,
+      "return_reasons": "Mobile overheating issue",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 37,
+      "product_name": "IKEA LACK Coffee Table",
+      "category_name": "Home",
+      "total_orders": 22,
+      "total_returns": 2,
+      "return_rate_pct": 9.09,
+      "return_reasons": "Colour different from website | Table surface scratched in transit",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 40,
+      "product_name": "Wakefit Memory Foam Mattress Queen",
+      "category_name": "Home",
+      "total_orders": 13,
+      "total_returns": 1,
+      "return_rate_pct": 7.69,
+      "return_reasons": "Saree colour faded after first wash",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 21,
+      "product_name": "Levis 511 Slim Fit Jeans",
+      "category_name": "Fashion",
+      "total_orders": 14,
+      "total_returns": 1,
+      "return_rate_pct": 7.14,
+      "return_reasons": "Size not fitting",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 35,
+      "product_name": "IFB 30L Convection Microwave",
+      "category_name": "Home",
+      "total_orders": 15,
+      "total_returns": 1,
+      "return_rate_pct": 6.67,
+      "return_reasons": "Changed mind",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 41,
+      "product_name": "Asian Paints Royale Atmos 20L",
+      "category_name": "Home",
+      "total_orders": 15,
+      "total_returns": 1,
+      "return_rate_pct": 6.67,
+      "return_reasons": "Defective product",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 5,
+      "product_name": "Redmi Note 13 Pro 5G 128GB",
+      "category_name": "Electronics",
+      "total_orders": 18,
+      "total_returns": 1,
+      "return_rate_pct": 5.56,
+      "return_reasons": "Quality not as expected",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 7,
+      "product_name": "Dell XPS 15 Core i7 16GB",
+      "category_name": "Electronics",
+      "total_orders": 19,
+      "total_returns": 1,
+      "return_rate_pct": 5.26,
+      "return_reasons": "Wrong item delivered",
+      "return_health_flag": "MODERATE - Monitor"
+    },
+    {
+      "product_id": 33,
+      "product_name": "Prestige SS Pressure Cooker 5L",
+      "category_name": "Home",
+      "total_orders": 20,
+      "total_returns": 1,
+      "return_rate_pct": 5,
+      "return_reasons": "Saree colour faded after first wash",
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 43,
+      "product_name": "WallMantra Motivational Wall Art",
+      "category_name": "Home",
+      "total_orders": 26,
+      "total_returns": 1,
+      "return_rate_pct": 3.85,
+      "return_reasons": "Product damaged during delivery",
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 16,
+      "product_name": "Anker PowerBank 20000mAh",
+      "category_name": "Electronics",
+      "total_orders": 28,
+      "total_returns": 1,
+      "return_rate_pct": 3.57,
+      "return_reasons": "Mobile overheating issue",
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 18,
+      "product_name": "Logitech MX Master 3S Mouse",
+      "category_name": "Electronics",
+      "total_orders": 22,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 19,
+      "product_name": "Raymond Slim Fit Formal Shirt",
+      "category_name": "Fashion",
+      "total_orders": 20,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 20,
+      "product_name": "Allen Solly Slim Fit Chinos",
+      "category_name": "Fashion",
+      "total_orders": 21,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 23,
+      "product_name": "US Polo Assn Polo T-Shirt",
+      "category_name": "Fashion",
+      "total_orders": 15,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 25,
+      "product_name": "W for Woman Straight Kurta",
+      "category_name": "Fashion",
+      "total_orders": 23,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 26,
+      "product_name": "Banarasi Silk Saree with Blouse",
+      "category_name": "Fashion",
+      "total_orders": 11,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 27,
+      "product_name": "FabIndia Cotton Salwar Suit",
+      "category_name": "Fashion",
+      "total_orders": 15,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 2,
+      "product_name": "Apple iPhone 15 128GB",
+      "category_name": "Electronics",
+      "total_orders": 14,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 3,
+      "product_name": "OnePlus 12 256GB",
+      "category_name": "Electronics",
+      "total_orders": 15,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 30,
+      "product_name": "Metro Shoes Formal Derby Men",
+      "category_name": "Fashion",
+      "total_orders": 17,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 31,
+      "product_name": "Bata Ladies Block Heels",
+      "category_name": "Fashion",
+      "total_orders": 16,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 32,
+      "product_name": "Instant Pot Duo 7-in-1",
+      "category_name": "Home",
+      "total_orders": 12,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 4,
+      "product_name": "Realme 12 Pro Plus 5G 256GB",
+      "category_name": "Electronics",
+      "total_orders": 15,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 34,
+      "product_name": "Philips Air Fryer HD9200 2.75L",
+      "category_name": "Home",
+      "total_orders": 20,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 6,
+      "product_name": "Apple MacBook Air M2 8GB",
+      "category_name": "Electronics",
+      "total_orders": 24,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 36,
+      "product_name": "Lifelong Mixer Grinder 500W",
+      "category_name": "Home",
+      "total_orders": 11,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 1,
+      "product_name": "Samsung Galaxy S24 Ultra 256GB",
+      "category_name": "Electronics",
+      "total_orders": 13,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 9,
+      "product_name": "Lenovo IdeaPad Slim 5 Ryzen 5",
+      "category_name": "Electronics",
+      "total_orders": 18,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 39,
+      "product_name": "Nilkamal Plastic Chair Set of 4",
+      "category_name": "Home",
+      "total_orders": 17,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 10,
+      "product_name": "ASUS VivoBook 15 Core i3",
+      "category_name": "Electronics",
+      "total_orders": 15,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 11,
+      "product_name": "Apple iPad Air 5th Gen 64GB",
+      "category_name": "Electronics",
+      "total_orders": 17,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 13,
+      "product_name": "Redmi Pad Pro WiFi 128GB",
+      "category_name": "Electronics",
+      "total_orders": 17,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 17,
+      "product_name": "boAt Rockerz 450 Headphones",
+      "category_name": "Electronics",
+      "total_orders": 16,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 38,
+      "product_name": "Solid Wood Study Desk",
+      "category_name": "Home",
+      "total_orders": 12,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 45,
+      "product_name": "Data Structures Made Easy",
+      "category_name": "Books",
+      "total_orders": 16,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 46,
+      "product_name": "CA Foundation Study Material",
+      "category_name": "Books",
+      "total_orders": 18,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 47,
+      "product_name": "GATE 2025 Computer Science",
+      "category_name": "Books",
+      "total_orders": 18,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 48,
+      "product_name": "The God of Small Things",
+      "category_name": "Books",
+      "total_orders": 21,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 49,
+      "product_name": "Malgudi Days RK Narayan",
+      "category_name": "Books",
+      "total_orders": 26,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    },
+    {
+      "product_id": 50,
+      "product_name": "The Palace of Illusions",
+      "category_name": "Books",
+      "total_orders": 16,
+      "total_returns": 0,
+      "return_rate_pct": 0,
+      "return_reasons": null,
+      "return_health_flag": "HEALTHY"
+    }
   ]
 }
