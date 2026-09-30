@@ -1,9 +1,9 @@
 -- =============================================================================
--- Flipkart Analytics Hub - Database Schema
+-- Flipkart Analytics Hub - Database Schema (v2)
 -- =============================================================================
--- Author  : Flipkart Analytics Hub Project
--- Purpose : E-commerce analytics database modelled on Indian marketplace data
--- Engine  : MySQL 8.0+
+-- Engine : MySQL 8.0+
+-- Tables : users, sellers, categories, products, orders,
+--           order_items, reviews, returns
 -- =============================================================================
 
 DROP DATABASE IF EXISTS flipkart_analytics;
@@ -39,27 +39,27 @@ CREATE TABLE sellers (
 
 -- Table 3: categories
 CREATE TABLE categories (
-    category_id    INT         NOT NULL AUTO_INCREMENT,
-    category_name  VARCHAR(80) NOT NULL,
-    subcategory    VARCHAR(80) NOT NULL,
+    category_id   INT         NOT NULL AUTO_INCREMENT,
+    category_name VARCHAR(80) NOT NULL,
+    subcategory   VARCHAR(80) NOT NULL,
     PRIMARY KEY (category_id)
 );
 
 -- Table 4: products
 CREATE TABLE products (
-    product_id    INT           NOT NULL AUTO_INCREMENT,
-    product_name  VARCHAR(200)  NOT NULL,
-    category_id   INT           NOT NULL,
-    seller_id     INT           NOT NULL,
-    price         DECIMAL(10,2) NOT NULL,
-    rating        DECIMAL(3,2)  NOT NULL DEFAULT 0.00,
-    stock         INT           NOT NULL DEFAULT 0,
-    created_date  DATE          NOT NULL,
+    product_id   INT           NOT NULL AUTO_INCREMENT,
+    product_name VARCHAR(200)  NOT NULL,
+    category_id  INT           NOT NULL,
+    seller_id    INT           NOT NULL,
+    price        DECIMAL(10,2) NOT NULL,
+    rating       DECIMAL(3,2)  NOT NULL DEFAULT 0.00,
+    stock        INT           NOT NULL DEFAULT 0,
+    created_date DATE          NOT NULL,
     PRIMARY KEY (product_id),
     CONSTRAINT fk_product_category FOREIGN KEY (category_id)
         REFERENCES categories (category_id) ON DELETE RESTRICT ON UPDATE CASCADE,
-    CONSTRAINT fk_product_seller FOREIGN KEY (seller_id)
-        REFERENCES sellers (seller_id) ON DELETE RESTRICT ON UPDATE CASCADE
+    CONSTRAINT fk_product_seller   FOREIGN KEY (seller_id)
+        REFERENCES sellers   (seller_id)   ON DELETE RESTRICT ON UPDATE CASCADE
 );
 
 -- Table 5: orders
@@ -86,24 +86,24 @@ CREATE TABLE order_items (
     unit_price    DECIMAL(10,2) NOT NULL,
     PRIMARY KEY (order_item_id),
     CONSTRAINT fk_item_order   FOREIGN KEY (order_id)
-        REFERENCES orders (order_id) ON DELETE CASCADE ON UPDATE CASCADE,
+        REFERENCES orders   (order_id)   ON DELETE CASCADE  ON UPDATE CASCADE,
     CONSTRAINT fk_item_product FOREIGN KEY (product_id)
         REFERENCES products (product_id) ON DELETE RESTRICT ON UPDATE CASCADE
 );
 
 -- Table 7: reviews
 CREATE TABLE reviews (
-    review_id   INT      NOT NULL AUTO_INCREMENT,
-    product_id  INT      NOT NULL,
-    user_id     INT      NOT NULL,
-    rating      TINYINT  NOT NULL CHECK (rating BETWEEN 1 AND 5),
+    review_id   INT     NOT NULL AUTO_INCREMENT,
+    product_id  INT     NOT NULL,
+    user_id     INT     NOT NULL,
+    rating      TINYINT NOT NULL CHECK (rating BETWEEN 1 AND 5),
     review_text TEXT,
-    review_date DATE     NOT NULL,
+    review_date DATE    NOT NULL,
     PRIMARY KEY (review_id),
     CONSTRAINT fk_review_product FOREIGN KEY (product_id)
-        REFERENCES products (product_id) ON DELETE CASCADE ON UPDATE CASCADE,
-    CONSTRAINT fk_review_user   FOREIGN KEY (user_id)
-        REFERENCES users (user_id) ON DELETE CASCADE ON UPDATE CASCADE
+        REFERENCES products (product_id) ON DELETE CASCADE  ON UPDATE CASCADE,
+    CONSTRAINT fk_review_user    FOREIGN KEY (user_id)
+        REFERENCES users    (user_id)    ON DELETE CASCADE  ON UPDATE CASCADE
 );
 
 -- Table 8: returns
@@ -117,7 +117,7 @@ CREATE TABLE returns (
                              NOT NULL DEFAULT 'Requested',
     PRIMARY KEY (return_id),
     CONSTRAINT fk_return_order   FOREIGN KEY (order_id)
-        REFERENCES orders (order_id) ON DELETE CASCADE ON UPDATE CASCADE,
+        REFERENCES orders   (order_id)   ON DELETE CASCADE  ON UPDATE CASCADE,
     CONSTRAINT fk_return_product FOREIGN KEY (product_id)
         REFERENCES products (product_id) ON DELETE RESTRICT ON UPDATE CASCADE
 );
