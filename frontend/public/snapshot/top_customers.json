@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-30T17:45:00.000Z",
+  "query": "q1",
+  "count": 10,
+  "data": [
+    { "user_id": 87, "username": "Vinod_Sharma", "city": "Jaipur", "region": "North", "user_type": "Regular", "total_orders": 8, "total_spending": 1581745.00, "avg_order_value": 197718.13, "last_order_date": "2026-09-19" },
+    { "user_id": 44, "username": "Ruchi_Desai", "city": "Mumbai", "region": "West", "user_type": "Regular", "total_orders": 3, "total_spending": 1274756.00, "avg_order_value": 424918.67, "last_order_date": "2026-02-22" },
+    { "user_id": 22, "username": "Lakshmi_Iyer", "city": "Chennai", "region": "South", "user_type": "Premium", "total_orders": 3, "total_spending": 1158919.00, "avg_order_value": 386306.33, "last_order_date": "2026-05-17" },
+    { "user_id": 82, "username": "Fatima_Shaikh", "city": "Mumbai", "region": "West", "user_type": "Regular", "total_orders": 10, "total_spending": 1113341.00, "avg_order_value": 111334.10, "last_order_date": "2026-09-22" },
+    { "user_id": 79, "username": "Arnab_Biswas", "city": "Kolkata", "region": "East", "user_type": "Regular", "total_orders": 4, "total_spending": 1020442.00, "avg_order_value": 255110.50, "last_order_date": "2026-09-07" },
+    { "user_id": 1, "username": "Aarav_Sharma", "city": "Delhi", "region": "North", "user_type": "VIP", "total_orders": 3, "total_spending": 726580.00, "avg_order_value": 242193.33, "last_order_date": "2026-09-23" },
+    { "user_id": 6, "username": "Kavita_Rao", "city": "Chandigarh", "region": "North", "user_type": "Regular", "total_orders": 4, "total_spending": 699288.00, "avg_order_value": 174822.00, "last_order_date": "2026-07-13" },
+    { "user_id": 80, "username": "Debarati_Majhi", "city": "Ranchi", "region": "East", "user_type": "Regular", "total_orders": 4, "total_spending": 536652.00, "avg_order_value": 134163.00, "last_order_date": "2026-01-21" },
+    { "user_id": 48, "username": "Swati_Joshi", "city": "Pune", "region": "West", "user_type": "Regular", "total_orders": 4, "total_spending": 526485.00, "avg_order_value": 131621.25, "last_order_date": "2026-03-30" },
+    { "user_id": 88, "username": "Bhavna_Patel", "city": "Surat", "region": "West", "user_type": "Regular", "total_orders": 2, "total_spending": 519693.00, "avg_order_value": 259846.50, "last_order_date": "2026-07-07" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-30T17:45:00.000Z",
+  "query": "q11",
+  "count": 12,
+  "data": [
+    { "sale_month": "2025-10", "month_name": "October", "total_orders": 38, "total_revenue": 5015653.00, "active_customers": 31, "avg_order_value": 131990.87, "festival_tag": "Navratri / Big Billion Days" },
+    { "sale_month": "2025-11", "month_name": "November", "total_orders": 42, "total_revenue": 4850923.00, "active_customers": 37, "avg_order_value": 115498.17, "festival_tag": "Diwali / Dhanteras" },
+    { "sale_month": "2025-12", "month_name": "December", "total_orders": 20, "total_revenue": 2318319.00, "active_customers": 18, "avg_order_value": 115915.95, "festival_tag": "End of Season Sale" },
+    { "sale_month": "2026-01", "month_name": "January", "total_orders": 31, "total_revenue": 4123622.00, "active_customers": 28, "avg_order_value": 133020.06, "festival_tag": "Republic Day Sale" },
+    { "sale_month": "2026-02", "month_name": "February", "total_orders": 19, "total_revenue": 2042704.00, "active_customers": 18, "avg_order_value": 107510.74, "festival_tag": "Valentine Sale" },
+    { "sale_month": "2026-03", "month_name": "March", "total_orders": 22, "total_revenue": 1769995.00, "active_customers": 18, "avg_order_value": 80454.32, "festival_tag": "Holi Sale" },
+    { "sale_month": "2026-04", "month_name": "April", "total_orders": 15, "total_revenue": 1226967.00, "active_customers": 14, "avg_order_value": 81797.80, "festival_tag": "Regular Month" },
+    { "sale_month": "2026-05", "month_name": "May", "total_orders": 16, "total_revenue": 1189916.00, "active_customers": 16, "avg_order_value": 74369.75, "festival_tag": "Regular Month" },
+    { "sale_month": "2026-06", "month_name": "June", "total_orders": 18, "total_revenue": 1689366.00, "active_customers": 17, "avg_order_value": 93853.67, "festival_tag": "Regular Month" },
+    { "sale_month": "2026-07", "month_name": "July", "total_orders": 17, "total_revenue": 1168299.00, "active_customers": 16, "avg_order_value": 68723.47, "festival_tag": "Regular Month" },
+    { "sale_month": "2026-08", "month_name": "August", "total_orders": 30, "total_revenue": 2620935.00, "active_customers": 25, "avg_order_value": 87364.50, "festival_tag": "Independence Day Sale" },
+    { "sale_month": "2026-09", "month_name": "September", "total_orders": 18, "total_revenue": 2154412.00, "active_customers": 16, "avg_order_value": 119689.56, "festival_tag": "Pre-Festive Season" }
+  ]
+}

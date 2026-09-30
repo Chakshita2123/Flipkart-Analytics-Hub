@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-30T17:45:00.000Z",
+  "query": "q14",
+  "count": 90,
+  "data": [
+    { "user_id": 87, "username": "Vinod_Sharma", "user_type": "Regular", "signup_date": "2024-07-14", "first_order_date": "2025-10-24", "days_to_first_purchase": 467, "first_order_value": 4999.00, "total_orders": 8, "total_clv": 1581745.00, "avg_order_value": 197718.13, "acquisition_type": "Long-term Nurture" },
+    { "user_id": 44, "username": "Ruchi_Desai", "user_type": "Regular", "signup_date": "2023-04-15", "first_order_date": "2025-10-09", "days_to_first_purchase": 908, "first_order_value": 380974.00, "total_orders": 3, "total_clv": 1274756.00, "avg_order_value": 424918.67, "acquisition_type": "Long-term Nurture" },
+    { "user_id": 22, "username": "Lakshmi_Iyer", "user_type": "Premium", "signup_date": "2023-02-28", "first_order_date": "2025-10-14", "days_to_first_purchase": 959, "first_order_value": 176665.00, "total_orders": 3, "total_clv": 1158919.00, "avg_order_value": 386306.33, "acquisition_type": "Long-term Nurture" },
+    { "user_id": 82, "username": "Fatima_Shaikh", "user_type": "Regular", "signup_date": "2024-02-15", "first_order_date": "2025-10-04", "days_to_first_purchase": 597, "first_order_value": 9998.00, "total_orders": 10, "total_clv": 1113341.00, "avg_order_value": 111334.10, "acquisition_type": "Long-term Nurture" },
+    { "user_id": 79, "username": "Arnab_Biswas", "user_type": "Regular", "signup_date": "2024-07-28", "first_order_date": "2025-10-26", "days_to_first_purchase": 455, "first_order_value": 15892.00, "total_orders": 4, "total_clv": 1020442.00, "avg_order_value": 255110.50, "acquisition_type": "Long-term Nurture" },
+    { "user_id": 1, "username": "Aarav_Sharma", "user_type": "VIP", "signup_date": "2023-01-15", "first_order_date": "2025-10-11", "days_to_first_purchase": 1000, "first_order_value": 4999.00, "total_orders": 3, "total_clv": 726580.00, "avg_order_value": 242193.33, "acquisition_type": "Long-term Nurture" },
+    { "user_id": 6, "username": "Kavita_Rao", "user_type": "Regular", "signup_date": "2023-06-08", "first_order_date": "2025-12-11", "days_to_first_purchase": 917, "first_order_value": 548.00, "total_orders": 4, "total_clv": 699288.00, "avg_order_value": 174822.00, "acquisition_type": "Long-term Nurture" },
+    { "user_id": 80, "username": "Debarati_Majhi", "user_type": "Regular", "signup_date": "2024-08-12", "first_order_date": "2025-10-19", "days_to_first_purchase": 433, "first_order_value": 5097.00, "total_orders": 4, "total_clv": 536652.00, "avg_order_value": 134163.00, "acquisition_type": "Long-term Nurture" },
+    { "user_id": 48, "username": "Swati_Joshi", "user_type": "Regular", "signup_date": "2023-08-05", "first_order_date": "2025-12-14", "days_to_first_purchase": 862, "first_order_value": 1299.00, "total_orders": 4, "total_clv": 526485.00, "avg_order_value": 131621.25, "acquisition_type": "Long-term Nurture" },
+    { "user_id": 88, "username": "Bhavna_Patel", "user_type": "Regular", "signup_date": "2024-07-25", "first_order_date": "2025-11-02", "days_to_first_purchase": 465, "first_order_value": 4998.00, "total_orders": 2, "total_clv": 519693.00, "avg_order_value": 259846.50, "acquisition_type": "Long-term Nurture" }
+  ]
+}

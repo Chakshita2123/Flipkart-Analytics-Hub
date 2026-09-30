@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-30T17:45:00.000Z",
+  "query": "overview",
+  "count": 1,
+  "data": {
+    "total_revenue": 30171111.00,
+    "active_orders": 286,
+    "total_orders_placed": 334,
+    "active_customers": 90,
+    "avg_order_value": 105493.40,
+    "delivered_orders": 256,
+    "returned_orders": 19,
+    "cancelled_orders": 29,
+    "total_return_items": 34,
+    "order_return_rate_pct": 5.69
+  }
+}

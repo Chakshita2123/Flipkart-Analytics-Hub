@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-30T17:45:00.000Z",
+  "query": "q8",
+  "count": 12,
+  "data": [
+    { "order_month": "2025-10", "orders_placed": 38, "monthly_revenue": 5015653.00, "unique_customers": 31, "prev_month_revenue": null, "mom_growth_pct": null, "cumulative_revenue": 5015653.00 },
+    { "order_month": "2025-11", "orders_placed": 42, "monthly_revenue": 4850923.00, "unique_customers": 37, "prev_month_revenue": 5015653.00, "mom_growth_pct": -3.28, "cumulative_revenue": 9866576.00 },
+    { "order_month": "2025-12", "orders_placed": 20, "monthly_revenue": 2318319.00, "unique_customers": 18, "prev_month_revenue": 4850923.00, "mom_growth_pct": -52.21, "cumulative_revenue": 12184895.00 },
+    { "order_month": "2026-01", "orders_placed": 31, "monthly_revenue": 4123622.00, "unique_customers": 28, "prev_month_revenue": 2318319.00, "mom_growth_pct": 77.87, "cumulative_revenue": 16308517.00 },
+    { "order_month": "2026-02", "orders_placed": 19, "monthly_revenue": 2042704.00, "unique_customers": 18, "prev_month_revenue": 4123622.00, "mom_growth_pct": -50.46, "cumulative_revenue": 18351221.00 },
+    { "order_month": "2026-03", "orders_placed": 22, "monthly_revenue": 1769995.00, "unique_customers": 18, "prev_month_revenue": 2042704.00, "mom_growth_pct": -13.35, "cumulative_revenue": 20121216.00 },
+    { "order_month": "2026-04", "orders_placed": 15, "monthly_revenue": 1226967.00, "unique_customers": 14, "prev_month_revenue": 1769995.00, "mom_growth_pct": -30.68, "cumulative_revenue": 21348183.00 },
+    { "order_month": "2026-05", "orders_placed": 16, "monthly_revenue": 1189916.00, "unique_customers": 16, "prev_month_revenue": 1226967.00, "mom_growth_pct": -3.02, "cumulative_revenue": 22538099.00 },
+    { "order_month": "2026-06", "orders_placed": 18, "monthly_revenue": 1689366.00, "unique_customers": 17, "prev_month_revenue": 1189916.00, "mom_growth_pct": 41.97, "cumulative_revenue": 24227465.00 },
+    { "order_month": "2026-07", "orders_placed": 17, "monthly_revenue": 1168299.00, "unique_customers": 16, "prev_month_revenue": 1689366.00, "mom_growth_pct": -30.84, "cumulative_revenue": 25395764.00 },
+    { "order_month": "2026-08", "orders_placed": 30, "monthly_revenue": 2620935.00, "unique_customers": 25, "prev_month_revenue": 1168299.00, "mom_growth_pct": 124.34, "cumulative_revenue": 28016699.00 },
+    { "order_month": "2026-09", "orders_placed": 18, "monthly_revenue": 2154412.00, "unique_customers": 16, "prev_month_revenue": 2620935.00, "mom_growth_pct": -17.80, "cumulative_revenue": 30171111.00 }
+  ]
+}

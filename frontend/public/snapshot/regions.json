@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-09-30T17:45:00.000Z",
+  "query": "q4_q12",
+  "data": {
+    "regional_sales": [
+      { "region": "North", "total_orders": 78, "unique_customers": 25, "total_revenue": 9090768.00, "avg_order_value": 116548.31, "revenue_share_pct": 30.13 },
+      { "region": "West", "total_orders": 80, "unique_customers": 24, "total_revenue": 8090949.00, "avg_order_value": 101136.86, "revenue_share_pct": 26.82 },
+      { "region": "South", "total_orders": 59, "unique_customers": 22, "total_revenue": 6706710.00, "avg_order_value": 113673.05, "revenue_share_pct": 22.23 },
+      { "region": "East", "total_orders": 69, "unique_customers": 22, "total_revenue": 6282684.00, "avg_order_value": 91053.39, "revenue_share_pct": 20.82 }
+    ],
+    "payments_by_region": [
+      { "region": "North", "payment_method": "COD", "order_count": 50, "revenue": 5313797.00, "pct_within_region": 58.14 },
+      { "region": "North", "payment_method": "UPI", "order_count": 13, "revenue": 1532619.00, "pct_within_region": 15.12 },
+      { "region": "North", "payment_method": "Credit Card", "order_count": 12, "revenue": 1992707.00, "pct_within_region": 13.95 },
+      { "region": "North", "payment_method": "Debit Card", "order_count": 6, "revenue": 591840.00, "pct_within_region": 6.98 },
+      { "region": "North", "payment_method": "Wallet", "order_count": 5, "revenue": 747727.00, "pct_within_region": 5.81 },
+      { "region": "South", "payment_method": "COD", "order_count": 41, "revenue": 3470057.00, "pct_within_region": 53.95 },
+      { "region": "South", "payment_method": "UPI", "order_count": 20, "revenue": 2216374.00, "pct_within_region": 26.32 },
+      { "region": "South", "payment_method": "Credit Card", "order_count": 9, "revenue": 1119991.00, "pct_within_region": 11.84 },
+      { "region": "South", "payment_method": "Debit Card", "order_count": 4, "revenue": 594982.00, "pct_within_region": 5.26 },
+      { "region": "South", "payment_method": "Wallet", "order_count": 2, "revenue": 544887.00, "pct_within_region": 2.63 },
+      { "region": "East", "payment_method": "COD", "order_count": 40, "revenue": 4215521.00, "pct_within_region": 49.38 },
+      { "region": "East", "payment_method": "UPI", "order_count": 19, "revenue": 986681.00, "pct_within_region": 23.46 },
+      { "region": "East", "payment_method": "Credit Card", "order_count": 12, "revenue": 1434469.00, "pct_within_region": 14.81 },
+      { "region": "East", "payment_method": "Wallet", "order_count": 6, "revenue": 552896.00, "pct_within_region": 7.41 },
+      { "region": "East", "payment_method": "Debit Card", "order_count": 4, "revenue": 476035.00, "pct_within_region": 4.94 },
+      { "region": "West", "payment_method": "COD", "order_count": 57, "revenue": 6445580.00, "pct_within_region": 62.64 },
+      { "region": "West", "payment_method": "UPI", "order_count": 19, "revenue": 1316931.00, "pct_within_region": 20.88 },
+      { "region": "West", "payment_method": "Credit Card", "order_count": 6, "revenue": 813710.00, "pct_within_region": 6.59 },
+      { "region": "West", "payment_method": "Debit Card", "order_count": 5, "revenue": 490726.00, "pct_within_region": 5.49 },
+      { "region": "West", "payment_method": "Wallet", "order_count": 4, "revenue": 170015.00, "pct_within_region": 4.40 }
+    ]
+  }
+}
